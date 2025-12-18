@@ -20,7 +20,7 @@ xmlns:tools="http://schemas.android.com/tools">
 
     <meta-data
         android:name="com.google.android.geo.API_KEY"
-        android:value="AIzaSyBNWNdSAjqlCSKokI3L6iKoTWyd8zv0e5M" />
+        android:value="" />
 
     <activity
         android:name=".MainActivity"
@@ -34,7 +34,6 @@ xmlns:tools="http://schemas.android.com/tools">
         </intent-filter>
     </activity>
 
-    <!-- FileProvider para compartir archivos de imagen -->
     <provider
         android:name="androidx.core.content.FileProvider"
         android:authorities="${applicationId}.fileprovider"
